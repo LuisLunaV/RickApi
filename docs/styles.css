@@ -62,3 +62,18 @@ color: white;
   flex-direction: row;
   justify-content: center;
 }
+
+@media (min-width:300px) and (max-width:575px){
+  .card-body{
+    max-width: auto;
+    max-height: auto;
+  }
+  .col{
+    max-width: 170px;
+    max-height: auto;
+  }
+
+  .btn-group{
+    justify-content: center;
+  }
+}
